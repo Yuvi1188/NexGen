@@ -42,7 +42,7 @@ export default function Footer() {
         <div className="flex justify-around h-full mt-10">
           {/* Column 1 */}
           <div className="">
-            <ul className='flex flex-col justify-around items-center gap-1 text-lg'>
+            <ul className='flex flex-col justify-around items-center gap-1 text-base'>
               <li>Mumbai Office</li>
               <li>+918898533370</li>
               <li>nexgensupport@gmail.com</li>
