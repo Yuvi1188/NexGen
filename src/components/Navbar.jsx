@@ -67,7 +67,7 @@ function Navbar() {
         )}
       </div>
 
-      <div className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"} bg-gradient-to-r from-purple-500 via-pink-500 to-red-500`}>
+      <div className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"} bg-black`}>
         <div className="flex justify-end p-4">
           <button onClick={toggleMenu} className="text-gray-200 focus:outline-none">
             <IoClose className="w-6 h-6" />
