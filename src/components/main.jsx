@@ -23,7 +23,7 @@ export default function Main() {
     try {
       console.log('Form Data:', formData); // Log form data before submission
       // Send form data to the backend server
-      await axios.post('/api/contact', formData);
+      await axios.post('https://nexgen-backend.onrender.com/api/contact', formData);
       alert('Your message has been sent successfully!');
       // Clear the form after submission
       setFormData({
